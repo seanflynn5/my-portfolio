@@ -1,0 +1,51 @@
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 29%, rgba(0,157,255,0.40242034313725494) 100%); 
+  color: black;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 29%, rgba(0,157,255,0.40242034313725494) 100%); 
+
+}
+
+.photo {
+  height: 15em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 30%;
+}
+.photo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.photo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  color: black;
+  padding: 2em;
+}
+
+.intro {
+  color: black;
+}
