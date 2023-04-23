@@ -1,7 +1,7 @@
 body {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,1) 29%, rgba(0,157,255,0.40242034313725494) 100%); 
@@ -47,5 +47,36 @@ body {
 }
 
 .intro {
+  color: black;
+}
+
+#main-content {
+  display: flex;
+  padding: 2em 10em;
+}
+
+#intro-div {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+}
+
+#modal-div {
+  padding: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.modal-content {
+  text-align: left;
+}
+
+.modal-btn {
+  text-align: center;
+  border-radius: 50%;
+  margin: 1em;
+  height: 15em;
+  width: 16em;
+  background-color: white;
   color: black;
 }
