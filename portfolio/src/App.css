@@ -41,6 +41,19 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  #main-content {
+    flex-direction: column;
+    padding: 2em;
+  }
+ #modal-div {
+  flex-direction: column;
+ }
+  #intro-div {
+    width: 100%;
+  }
+}
+
 .card {
   color: black;
   padding: 2em;
