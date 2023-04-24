@@ -7,7 +7,7 @@ function MyNavbar() {
     <>
       <Navbar fixed ="top" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand>My Links</Navbar.Brand>
+          <Navbar.Brand>Contact</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="https://github.com/seanflynn5">GitHub</Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/sean-g-flynn/">LinkedIn</Nav.Link>

@@ -1,22 +1,20 @@
 body {
+  font-family: 'Rubik', sans-serif;
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 29%, rgba(0,157,255,0.40242034313725494) 100%); 
   color: black;
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 29%, rgba(0,157,255,0.40242034313725494) 100%); 
-
+  background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
 }
 
 .photo {
-  height: 15em;
+  height: 20em;
+  width: 20em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-  border-radius: 30%;
+  border-radius: 50%;
 }
 .photo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -36,7 +34,7 @@ body {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
+  a:nth-of-type(2) .photo {
     animation: logo-spin infinite 20s linear;
   }
 }
@@ -47,6 +45,7 @@ body {
     padding: 2em;
   }
  #modal-div {
+  display: flex;
   flex-direction: column;
  }
   #intro-div {
@@ -66,6 +65,9 @@ body {
 #main-content {
   display: flex;
   padding: 2em 10em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -3em;
 }
 
 #intro-div {
@@ -78,6 +80,7 @@ body {
   padding: 1.5em;
   display: flex;
   align-items: center;
+  
 }
 
 .modal-content {
@@ -85,11 +88,35 @@ body {
 }
 
 .modal-btn {
-  text-align: center;
-  border-radius: 50%;
-  margin: 1em;
-  height: 15em;
-  width: 16em;
-  background-color: white;
-  color: black;
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
 }
+
+.modal-btn:hover {
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.modal-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.modal-btn:hover:before {
+  left: 100%;
+}
+
+
