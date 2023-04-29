@@ -44,7 +44,7 @@ future changes in data requirements considered</li>
         </ul>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <button className='modal-btn' onClick={props.onHide}>Close</button>
       </Modal.Footer>
     </Modal>
   );

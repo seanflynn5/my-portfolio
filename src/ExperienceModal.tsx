@@ -1,4 +1,5 @@
-import Button from 'react-bootstrap/Button';
+import csLogo from './assets/cs-logo.png'
+import prevueLogo from './assets/prevue-large-green.png'
 import Modal from 'react-bootstrap/Modal';
 
 interface ExperienceModalProps {
@@ -21,7 +22,8 @@ function ExperienceModal(props: ExperienceModalProps) {
       </Modal.Header>
       <Modal.Body>
         <h4>Codesmith</h4>
-        <p><i>April 2023 - Present</i></p>
+        <img className='modal-img' src={csLogo}></img>
+        <p>April 2023 - Present</p>
         <ul id='modal-content'>
           <li>Mentored junior engineers on full SDLC of open-source apps using JS, Node / Express, React, PostgreSQL, Docker, etc. for
 successful product launches</li>
@@ -33,6 +35,7 @@ algorithmic thinking, empathy, and adherence to best practices</li>
         </ul>
         <br></br>
         <h4><a href='http://prevue.live'>PreVue (Open Source)</a></h4>
+        <img className='modal-img' src={prevueLogo}></img>
         <p><i>January 2023 - Present</i></p>
         <ul id='modal-content'>
           <li>Developed prototyping tool with reusable Vue components and Vue Router to create a modular and easily navigable
@@ -56,7 +59,7 @@ GitHub and save and retrieve projects saved in database</li>
         </ul>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <button className='modal-btn' onClick={props.onHide}>Close</button>
       </Modal.Footer>
     </Modal>
   );

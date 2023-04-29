@@ -10,7 +10,7 @@ body {
 
 .photo {
   height: 20em;
-  width: 20em;
+  width: 21em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -39,17 +39,46 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #main-content {
-    flex-direction: column;
-    padding: 2em;
+    padding: 10px;
   }
- #modal-div {
-  display: flex;
-  flex-direction: column;
- }
-  #intro-div {
+  
+  .photo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .intro {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  #modal-btn-container {
+    display: flex;
+    justify-content: center;
     width: 100%;
+    margin-bottom: 20px;
+  }
+  .modal-btn {
+    display: block;
+    margin: 0 auto;
+    width: 150px;;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-top: 10px;
   }
 }
 
@@ -76,6 +105,10 @@ body {
   width: 20em;
 }
 
+.modal-img {
+  width: 100px;
+}
+
 #modal-div {
   padding: 1.5em;
   display: flex;
@@ -86,6 +119,22 @@ body {
 .modal-content {
   text-align: left;
 }
+
+#viola-img {
+  float: right;
+  width: 100px;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+#viola-img:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+#viola-img.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
 
 .modal-btn {
   text-decoration: none;
@@ -118,5 +167,35 @@ body {
 .modal-btn:hover:before {
   left: 100%;
 }
+
+
+#video-div-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+#video-div {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth; /* optional - adds smooth scrolling */
+  -webkit-overflow-scrolling: touch; /* optional - enables momentum scrolling on iOS */
+  max-width: 100%; /* prevent container from overflowing */
+  margin: 0 auto; /* center the container horizontally */
+}
+
+#video-div iframe {
+  max-width: 385px;
+  margin-right: 10px; /* add spacing between videos */
+}
+
+@media (max-width: 600px) { /* adjust to your desired mobile screen width */
+  #video-div {
+    flex-direction: column;
+    padding: 10px;
+  }
+  iframe {
+    margin-bottom: 10px;
+  }
+}
+
 
 
