@@ -173,19 +173,6 @@ body {
   width: 100%;
   overflow: hidden;
 }
-#video-div {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth; /* optional - adds smooth scrolling */
-  -webkit-overflow-scrolling: touch; /* optional - enables momentum scrolling on iOS */
-  max-width: 100%; /* prevent container from overflowing */
-  margin: 0 auto; /* center the container horizontally */
-}
-
-#video-div iframe {
-  max-width: 385px;
-  margin-right: 10px; /* add spacing between videos */
-}
 
 @media (max-width: 600px) { /* adjust to your desired mobile screen width */
   #video-div {
@@ -193,6 +180,7 @@ body {
     padding: 10px;
   }
   iframe {
+    max-width: 400px;
     margin-bottom: 10px;
   }
 }

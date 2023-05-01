@@ -8,7 +8,7 @@ function Music() {
         width="600"
         height="315"
         src="https://www.youtube.com/embed/_MLbDPtK1n4"
-        title="YouTube video player"
+        title="Eroded"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
@@ -16,7 +16,7 @@ function Music() {
         width="600"
         height="315"
         src="https://www.youtube.com/embed/eQsWEdxjabE"
-        title="YouTube video player"
+        title="Sperger"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
@@ -24,7 +24,7 @@ function Music() {
         width="600"
         height="315"
         src="https://www.youtube.com/embed/RBLGKsS4I1g"
-        title="YouTube video player"
+        title="Shosty"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
