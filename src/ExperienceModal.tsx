@@ -34,7 +34,7 @@ professional growth</li>
 algorithmic thinking, empathy, and adherence to best practices</li>
         </ul>
         <br></br>
-        <h4><a href='http://prevue.live'>PreVue (Open Source)</a></h4>
+        <h4><a href='https://github.com/open-source-labs/PreVue'>PreVue (Open Source)</a></h4>
         <img className='modal-img' src={prevueLogo}></img>
         <p><i>January 2023 - Present</i></p>
         <ul id='modal-content'>
