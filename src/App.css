@@ -40,7 +40,7 @@ body {
 
 @media (max-width: 767px) {
   body {
-    width: 100%;
+    max-width: 100%;
     padding: 1vm;
   }
 
@@ -87,9 +87,24 @@ body {
     max-width: 100%;
     height: auto;
   }
+  #video-div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  iframe {
+    max-width: 50%;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 320px) {
+  body {
+    max-width: 100%;
+    padding: 1vm;
+  }
+
   .container {
     width: 100%;
     box-sizing: border-box;
