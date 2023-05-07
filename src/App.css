@@ -108,6 +108,9 @@ body {
 }
 
 @media (max-width: 320px) {
+  body {
+    overflow-x: hidden; /*need this?*/
+  }
 
   .container {
     width: 100%;
