@@ -39,10 +39,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  #main-content {
-    padding: 10px;
-  }
-  
   .photo {
     max-width: 100%;
     height: auto;
@@ -91,7 +87,6 @@ body {
 @media (max-width: 320px) {
   .container {
     width: 100%;
-    padding: 20px;
     box-sizing: border-box;
   }
   .box {
