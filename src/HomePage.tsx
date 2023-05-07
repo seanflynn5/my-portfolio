@@ -23,7 +23,7 @@ function HomePage():JSX.Element {
       <h1>Sean Flynn</h1>
       <h3><i>Software Engineer</i></h3>
       <p className="intro">
-        Hi! 👋  I'm Sean, a software engineer with experience in fullstack JavaScript development. I currently work at <a href='https://www.codesmith.io/'>Codesmith</a> as a Software Engineer, and recently worked on <a href='http://prevue.live'>PreVue</a>, an open source prototyping tool for Vue.js developers. In my downtime, I enjoy playing and listening to music (as you can tell by my photo!). Let's be in touch!
+        Hi! 👋  I'm Sean, a software engineer with experience in fullstack JavaScript development. I currently work at <a href='https://www.codesmith.io/'>Codesmith</a> as a Software Engineer, and recently worked on <a href='https://github.com/open-source-labs/PreVue'>PreVue</a>, an open source prototyping tool for Vue.js developers. In my downtime, I enjoy playing and listening to music (as you can tell by my photo!). Let's be in touch!
       </p>
       </div>
       <div id='modal-btn-container'>
