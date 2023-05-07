@@ -81,6 +81,14 @@ body {
     margin-top: 10px;
   }
 
+  #tail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
   #viola-img {
     display: block;
     margin: 0 auto;
@@ -94,7 +102,7 @@ body {
   }
 
   iframe {
-    max-width: 50%;
+    max-width: 80%;
     margin-bottom: 10px;
   }
 }
@@ -126,6 +134,14 @@ body {
   p {
     font-size: 16px;
     line-height: 1.5;
+  }
+
+  #tail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
   }
   #viola-img {
     display: block;

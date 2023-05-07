@@ -34,6 +34,7 @@ function HomePage():JSX.Element {
           Projects
         </button>
         </div>
+        <div id='tail-content'>
       <ExperienceModal show={expModalShow}
         onHide={() => setExpModalShow(false)} />
       <ProjectModal show={projModalShow}
@@ -42,6 +43,7 @@ function HomePage():JSX.Element {
         <Link to="/music">
         <img id='viola-img' src={violaImg} alt="My Image" />
       </Link>
+      </div>
     </>
   )
 }
