@@ -79,6 +79,45 @@ body {
     font-size: 14px;
     margin-top: 10px;
   }
+
+  #viola-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .box {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .box img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  #viola-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .card {
@@ -180,6 +219,17 @@ body {
   }
   iframe {
     max-width: 400px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 320) { 
+  #video-div {
+    flex-direction: column;
+    padding: 10px;
+  }
+  iframe {
+    max-width: 200px;
     margin-bottom: 10px;
   }
 }
