@@ -146,6 +146,13 @@ body {
     justify-content: center;
     height: 100%;
   }
+  
+  .footer {
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
   #viola-img {
     display: block;
     margin: 0 auto;
