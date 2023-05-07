@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   max-width: 100%;
   font-family: 'Rubik', sans-serif;
   margin: 0 auto;
@@ -40,10 +41,10 @@ body {
 }
 
 @media (max-width: 767px) {
-  body {
+  /* body {
     max-width: 100%;
     padding: 1vm;
-  }
+  } */
 
   .photo {
     max-width: 100%;
@@ -111,10 +112,10 @@ body {
 }
 
 @media (max-width: 320px) {
-  body {
+  /* body {
     max-width: 100%;
     padding: 1vm;
-  }
+  } */
 
   .container {
     width: 100%;
@@ -146,13 +147,8 @@ body {
     justify-content: center;
     height: 100%;
   }
-  
-  .footer {
-    margin-top: auto;
-    text-align: center;
-    padding-bottom: 10px;
-  }
-  
+
+
   #viola-img {
     display: block;
     margin: 0 auto;
