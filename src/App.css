@@ -41,10 +41,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* body {
-    max-width: 100%;
-    padding: 1vm;
-  } */
 
   .photo {
     max-width: 100%;
@@ -52,12 +48,12 @@ body {
   }
   
   h1 {
-    font-size: 28px;
+    font-size: 22px;
     margin-top: 20px;
   }
   
   h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
   }
   
@@ -112,10 +108,6 @@ body {
 }
 
 @media (max-width: 320px) {
-  /* body {
-    max-width: 100%;
-    padding: 1vm;
-  } */
 
   .container {
     width: 100%;
@@ -132,8 +124,13 @@ body {
     height: auto;
   }
   h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-top: 10px;
   }
   p {
     font-size: 16px;
