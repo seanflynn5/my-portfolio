@@ -39,6 +39,10 @@ body {
 }
 
 @media (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+
   .photo {
     max-width: 100%;
     height: auto;
@@ -112,6 +116,17 @@ body {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+  }
+
+  #video-div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  iframe {
+    max-width: 100%;
+    margin-bottom: 10px;
   }
 }
 
@@ -207,27 +222,7 @@ body {
   overflow: hidden;
 }
 
-@media (max-width: 600px) { /* adjust to your desired mobile screen width */
-  #video-div {
-    flex-direction: column;
-    padding: 10px;
-  }
-  iframe {
-    max-width: 400px;
-    margin-bottom: 10px;
-  }
-}
 
-@media (max-width: 320) { 
-  #video-div {
-    flex-direction: column;
-    padding: 10px;
-  }
-  iframe {
-    max-width: 200px;
-    margin-bottom: 10px;
-  }
-}
 
 
 
