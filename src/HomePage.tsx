@@ -35,15 +35,15 @@ function HomePage():JSX.Element {
         </button>
         </div>
         <div id='tail-content'>
-          <ExperienceModal show={expModalShow} onHide={() => setExpModalShow(false)} />
-          <ProjectModal show={projModalShow} onHide={() => setProjModalShow(false)} />   
-          <div className="footer">
-            <p><i>Website built with React, TypeScript, Vite, and React Bootstrap</i></p>
-            <Link to="/music">
-              <img id='viola-img' src={violaImg} alt="My Image" />
-            </Link>
-          </div>
-          </div>
+      <ExperienceModal show={expModalShow}
+        onHide={() => setExpModalShow(false)} />
+      <ProjectModal show={projModalShow}
+        onHide={() => setProjModalShow(false)} />   
+        {/* <p><i>Website built with React, TypeScript, Vite, and React Bootstrap</i></p> */}
+        <Link to="/music">
+        <img id='viola-img' src={violaImg} alt="My Image" />
+      </Link>
+      </div>
     </>
   )
 }
