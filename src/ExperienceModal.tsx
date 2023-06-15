@@ -25,12 +25,16 @@ function ExperienceModal(props: ExperienceModalProps) {
         <img className='modal-img' src={csLogo}></img>
         <p>April 2023 - Present</p>
         <ul id='modal-content'>
+          <li>Utilized React’s component-based architecture and Redux’s observer pattern to develop and maintain Codesmith’s public site and CSX, an
+online JavaScript learning platform with over 165,000 users annually</li>
+          <li>Updated custom YAML content parser to map static content to dynamic React components, which enabled collaborative workflows and reduce
+content-to-deployment turnaround time by replacing traditional CMS through automation</li>
           <li>Mentored junior engineers on full SDLC of open-source apps using JS, Node / Express, React, PostgreSQL, Docker, etc. for
 successful product launches</li>
-<li>Conducted technical training on Node and non-native JS data structures with focus on best practices</li>
-<li>Performed code reviews, white-boarding sessions, and mentored junior engineers for full-stack app development and
+          <li>Conducted technical training on Node and non-native JS data structures with focus on best practices</li>
+          <li>Performed code reviews, white-boarding sessions, and mentored junior engineers for full-stack app development and
 professional growth</li>
-<li>Evaluated prospective engineers in technical interviews based on JS knowledge, technical communication, debugging,
+          <li>Evaluated prospective engineers in technical interviews based on JS knowledge, technical communication, debugging,
 algorithmic thinking, empathy, and adherence to best practices</li>
         </ul>
         <br></br>
