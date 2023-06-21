@@ -1,3 +1,7 @@
+html {
+  background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+}
+
 body {
   width: 100%;
   max-width: 100%;
@@ -58,7 +62,6 @@ body {
   }
   
   .intro {
-    font-size: 16px;
     margin-top: 10px;
   }
   
@@ -112,34 +115,6 @@ body {
     overflow-x: hidden; /*need this?*/
   }
 
-  .container {
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .box {
-    width: 100%;
-    height: auto;
-    margin: 10px 0;
-    text-align: center;
-  }
-  .box img {
-    max-width: 100%;
-    height: auto;
-  }
-  h1 {
-    font-size: 22px;
-    margin-top: 10px;
-  }
-  
-  h3 {
-    font-size: 18px;
-    margin-top: 10px;
-  }
-  p {
-    font-size: 13px;
-    line-height: 1.5;
-  }
-
   #tail-content {
     display: flex;
     flex-direction: column;
@@ -181,7 +156,7 @@ body {
 
 #main-content {
   display: flex;
-  padding: 2em 10em;
+  padding: 2em 6em;
   display: flex;
   flex-direction: column;
   margin-bottom: -3em;
