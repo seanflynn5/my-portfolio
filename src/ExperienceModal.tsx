@@ -29,9 +29,10 @@ function ExperienceModal(props: ExperienceModalProps) {
 online JavaScript learning platform with over 165,000 users annually</li>
           <li>Updated custom YAML content parser to map static content to dynamic React components, which enabled collaborative workflows and reduce
 content-to-deployment turnaround time by replacing traditional CMS through automation</li>
-          <li>Mentored junior engineers on full SDLC of open-source apps using JS, Node / Express, React, PostgreSQL, Docker, etc. for
-successful product launches</li>
-          <li>Conducted technical training on Node and non-native JS data structures with focus on best practices</li>
+          <li>Implemented parameterized SQL queries for transaction support with a relational database, ensuring ACID compliance, strict schemas, and
+robust security for classified user data</li>
+          <li>Created Jest and Enzyme unit tests with Cypress end-to-end tests in the CI/CD pipeline, ensuring proper rendering of React/Redux
+components, intended functionality, and early detection of side effects</li>
           <li>Performed code reviews, white-boarding sessions, and mentored junior engineers for full-stack app development and
 professional growth</li>
           <li>Evaluated prospective engineers in technical interviews based on JS knowledge, technical communication, debugging,
