@@ -39,28 +39,25 @@ professional growth</li>
 algorithmic thinking, empathy, and adherence to best practices</li>
         </ul>
         <br></br>
-        <h4><a href='https://github.com/open-source-labs/PreVue'>PreVue (Open Source)</a></h4>
+        <h4><a href='https://github.com/open-source-labs/PreVue'>PreVue (OS Labs)</a></h4>
         <img className='modal-img' src={prevueLogo}></img>
         <p><i>January 2023 - Present</i></p>
         <ul id='modal-content'>
-          <li>Developed prototyping tool with reusable Vue components and Vue Router to create a modular and easily navigable
-prototyping tool that allows Vue developers to conceptualize and plan project component hierarchy</li>
-<li>Employed Test Driven Development practices by creating test suites with Vue Test Utils and Supertest to ensure consistent
-and efficient functionality on both front and back ends, enhancing the UX for both developers and users</li>
-<li>Implemented Vuex 4 to manage application state, allowing quick access to specific parts of the state from all layers of its
-structure and ensuring its easy scalability, modularity, and efficient debugging for future enhancements and improvements</li>
-<li>Initialized a Node/Express server to serve a number of different HTTP requests at various endpoints, ensuring future
-scalability as well as improved routing and middleware chaining to aid in enhancing the user experience</li>
-<li>Utilized Docker for containerization, allowing for efficient movement between development, staging, and production
-environments, enabling high degree of ease for future application iteration</li>
-<li>Constructed a PostgreSQL database to enable effective querying of relational data with querying speed and storage
-efficiency in mind, easily integrating with the frontend to allow for a seamless user experience upon data retrieval</li>
-<li>Utilized TypeScript to ensure consistent and efficient error handling, allowing developers to quickly detect and remedy bugs
-with its strict type-checking system while concurrently improving performance and scalability</li>
+          <li>Developed prototyping tool with reusable Vue components and Vue Router to create a modular and efficient application that allows Vue
+developers to conceptualize and plan project component hierarchy</li>
+<li>Utilized TypeScript to ensure consistent and efficient error handling, allowing developers to quickly detect bugs and improve scalability</li>
+<li>Created unit test coverage with Vue Test Utils and HTTP server testing with Supertest to ensure consistent performance, enhancing the UX for
+both developers and users and preventing future regressions in functionality by 90%</li>
+<li>Migrated state management library to Vuex 4 to manage application state, allowing quick access to specific parts of the state from all layers of
+its structure and ensuring its easy scalability, modularity, and efficient debugging for future enhancements and improvements</li>
+<li>Initialized a Node/Express server to serve a number of different HTTP requests at various endpoints, ensuring future scalability as well as
+improved routing and middleware chaining by leveraging Node’s event-driven architecture</li>
+<li>Leveraged Docker for containerization, allowing for efficient movement between development, staging, and production environments,
+enabling high degree of ease for future application iteration</li>
+<li>Configured a PostgreSQL database to enable effective querying of relational data with querying speed and storage efficiency in mind, easily
+integrating with the frontend to allow for seamless data retrieval</li>
 <li>Implemented OAuth 2.0 to authenticate users and persist user session state, providing them with the ability to log in via
 GitHub and save and retrieve projects saved in database</li>
-<li>Conducted daily standups as scrum lead in an AGILE/SCRUM flow to enhance workflow and team dynamics</li>
-<li>Product was developed under tech accelerator OS Labs (opensourcelabs.io)</li>
         </ul>
       </Modal.Body>
       <Modal.Footer>
