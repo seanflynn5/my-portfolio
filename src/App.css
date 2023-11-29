@@ -1,8 +1,17 @@
-html {
-  background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+@keyframes color-change {
+  0%,100% {
+    background-color: rgb(237, 161, 193);
+  }
+  50% {
+    background-color: rgb(250, 178, 172);
+  }
+  75% {
+    background-color: rgb(190, 228, 210);
+  }
 }
 
 body {
+  animation: 10000ms ease-in-out infinite color-change;
   width: 100%;
   max-width: 100%;
   font-family: 'Rubik', sans-serif;
@@ -10,10 +19,30 @@ body {
   padding: 1rem;
   text-align: center;
   color: black;
-  background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+  /* background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%); */
 }
 
-.photo {
+@font-face {
+  font-family: librefranklin;
+  src: url('./assets/librefranklin.ttf');
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 1; /* End with opacity 1 */
+  }
+}
+
+#sean-text{
+  font-family: librefranklin;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.photo {  
   height: 20em;
   width: 21em;
   padding: 1.5em;
@@ -22,10 +51,10 @@ body {
   border-radius: 50%;
 }
 .photo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #000000aa);
 }
 .photo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #000000aa);
 }
 
 
@@ -108,6 +137,12 @@ body {
     max-width: 80%;
     margin-bottom: 10px;
   }
+
+  #skills-box {
+    margin-top: -10px;
+    max-width: 200px;
+  }
+
 }
 
 @media (max-width: 320px) {
@@ -122,7 +157,6 @@ body {
     justify-content: center;
     height: 100%;
   }
-
 
   #viola-img {
     display: block;
@@ -143,6 +177,7 @@ body {
     max-width: 50%;
     margin-bottom: 10px;
   }
+
 }
 
 .card {
@@ -192,10 +227,10 @@ body {
   border-radius: 50%;
 }
 #viola-img:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #000000aa);
 }
 #viola-img.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #000000aa);
 }
 
 
@@ -208,7 +243,7 @@ body {
 }
 
 .modal-btn:hover {
-  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  box-shadow: 1px 1px 25px 10px 000000aa;
 }
 
 .modal-btn:before {
@@ -236,6 +271,100 @@ body {
   width: 100%;
   overflow: hidden;
 }
+
+iframe {
+  border-radius: 10%;
+}
+
+#skills-box {
+  align-self: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  padding: 10px;
+  animation: 35s scrollSkills linear infinite;
+}
+
+.skill-item {
+  min-width: 100px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+@keyframes scrollSkills {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+
+
+@media (max-width: 767px) {
+  #skills-box {
+    margin-top: -10px;
+    max-width: 200px;
+  }
+
+  .skills-container {
+    max-width: 250px;
+  }
+
+  .skill-item {
+    min-width: 100px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+
+  @keyframes scrollSkills {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-1000%); 
+    }
+  }
+
+  
+}
+
+@media (max-width: 480px) {
+  .skill-item {
+    min-width: 90px;
+    margin-right: 5px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .skills-container {
+    max-width: 150px;
+  }
+
+  @keyframes scrollSkills {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-1000%); 
+    }
+  }
+}
+
+
 
 
 

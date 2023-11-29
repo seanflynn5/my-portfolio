@@ -19,27 +19,20 @@ function ProjectsModal(props: ProjectsModalProps) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
+      <h4><a href = 'https://comforting-paletas-29eebd.netlify.app/'>My Ear Trainer</a></h4>
+        <p><i>Ear training app for musicians to help enhance aural skills</i></p>
+        <ul id='modal-content'>
+          <li>Created reusable components in React to easily maintain and uniformize the codebase through abstractions and the Flux architecture </li>
+<li>Written in TypeScript to ensure data type consistency, enhancing ease of debugging and streamlined implementation of future features</li>
+        </ul>
+        <br></br>
         <h4>AI-Mongus</h4>
         <p><i>An interactive guessing game integrated with ChatGPT</i></p>
         <ul id='modal-content'>
           <li>Integrated React Router to facilitate single page application (SPA) development to minimize network requests and ensure
 maintainability and uniformity of the codebase, ultimately creating a better user and developer experience</li>
-<li>Leveraged the power of WebSockets to allow for requests to be made concurrently by both users and an AI interface</li>
-<li>Performed code reviews, white-boarding sessions, and mentored junior engineers for full-stack app development and
-professional growth</li>
-<li>Created a MongoDB database with querying speed in mind, taking advantage of faster read/write times of NoSQL for
-non-relational data</li>
-        </ul>
-        <br></br>
-        <h4>GoodHealth</h4>
-        <p><i>Querying interface to inform nutritional decision-making</i></p>
-        <ul id='modal-content'>
-          <li>Implemented the container pattern in React and created reusable components to easily maintain and uniformize the
-codebase through abstractions and the Flux architecture</li>
-<li>Managed the HTTP request/response cycle via a REST API built with Node/Express, facilitating consistent data flow and
-error handling with the use of middleware and global error handlers</li>
-<li>Utilized MongoDB for application's database due to its flexible data model, enabling easy development and scalability with
-future changes in data requirements considered</li>
+<li>Built a MongoDB database instance to prioritize querying speed and to take advantage of faster read/write times for non-relational data
+</li>
         </ul>
       </Modal.Body>
       <Modal.Footer>

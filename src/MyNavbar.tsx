@@ -1,20 +1,37 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import githubCat from './assets/github-cat.png';
+import linkedIn from './assets/linkedin.png';
 
 function MyNavbar() {
   return (
     <>
-      <Navbar fixed ="top" bg="dark" variant="dark">
+      <Navbar fixed="top" bg="muted" variant="light">
         <Container>
-          <Navbar.Brand>Contact</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="https://github.com/seanflynn5">GitHub</Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/sean-g-flynn/">LinkedIn</Nav.Link>
-          </Nav>
+        My Links
+          <Navbar.Brand>
+            <a href="https://github.com/seanflynn5">
+              <img
+                alt="GitHub"
+                src={githubCat}
+                width="40"
+                height="40"
+                className="d-inline-block align-top"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/sean-g-flynn/">
+              <img
+                alt="LinkedIn"
+                src={linkedIn}
+                width="30"
+                height="35"
+                className="d-inline-block align-top"
+              />
+            </a>
+          </Navbar.Brand>
         </Container>
       </Navbar>
-      </>
+    </>
   );
 }
 
