@@ -23,7 +23,7 @@ function HomePage(): JSX.Element {
         </div>
         <h3><i>Software Engineer</i></h3>
         <p className="intro">
-          Hi! 👋  I'm Sean, a software engineer with experience in fullstack development. Starting in 2024, I will be working at <a href='https://www.bradyid.com/'>Brady Corporation</a> as a Web Developer, and recently worked at <a href='https://www.codesmith.io/'>Codesmith</a> as a Software Engineer. In my downtime, I enjoy playing and listening to music (as you can tell by my photo!). Let's be in touch!
+          Hi! 👋  I'm Sean, a software engineer with experience in fullstack development. I currently work at <a href='https://www.bradyid.com/'>Brady Corporation</a> as a Web Developer, and recently worked at <a href='https://www.codesmith.io/'>Codesmith</a> as a Software Engineer. In my downtime, I enjoy playing and listening to music (as you can tell by my photo!). Let's be in touch!
         </p>
         <h5>Skills & Technologies</h5>
       <Marquee autoFill={true} speed={30} className='skills-box'> JavaScript TypeScript C++ React Vue HTML CSS Node.js Express MongoDB PostgreSQL OAuth Jest Docker Git&nbsp;</Marquee>
